@@ -1,65 +1,130 @@
-#wrapper1 {
-    background-color: #f8f8f8;
-    height:1500px;
-    width: 920px;
+ * {
+    margin: 0;
+    padding: 0;
 }
 
-.topheader{
-    display:inline-block;
-    height: 5px;
-    margin-top:5px;
-    padding-bottom: 7px;
+#wrapper {
+    margin:auto;
+    width: 970px;
+    background-color:#f9f9f9;
 }
 
-h1{
-    margin-right: 460px;
-    margin-left: 13px;
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding:15px;
 }
 
-.wrapper2 {
-    background: linear-gradient(to bottom, #1e0d12 0%, #6f5964 100%);
-    height: 800px;
-    display:flex;
+#main {
+    background: linear-gradient(#1f0f13,#6f5964);
+    padding: 20px;
 }
 
-#main img{
-    height: 248px;
-    width: 400px;
-    border: 3px solid white;
-    margin:20px;
-    margin-right: 5px;
+#me-img {
+    width: 410px;
+    border: 4px solid #7d7377;
 }
 
-#horizontal{
-    height:250px;
-    width:450px;
-    background-color: #e5dae4;
-    margin: 20px;
+#about {
+    display: flex;
+    justify-content: space-between;
 }
 
-.mainheader {
-    width: 440px;
-    height:25px;
-    margin:10px;
-    background: linear-gradient(to bottom right,#908f9a 0%, #a7a6ad 100%);
-    color: white; 
-    margin: 0 ;
-    padding: 5px;
+#about-me{
+    width:490px;
+    background: linear-gradient(to bottom right, #fefefe, #dbcbda);
 }
 
-#horizontal p{
-    color:black;
+#about-me h3 {
+    color: white;
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf);
+    padding: 5px 10px;
+    margin-bottom: 9px;
+}
+
+#about-me p {
+    margin-bottom:15px;
     padding-left: 10px;
-    margin-top:10px;
 }
 
-#horizontal a{
+#about-me a {
+    padding-left:10px;
     color: black;
-    padding-left: 12px;
 }
 
-.verticle {
+#projects {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#6f5964, #1f0f13);
+    padding-left:20px;
+    padding-right: 20px;
+    
+}
+
+.program {
+    height: 560px;
+    width: 300px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to bottom right, #fefefe, #dbcbda); 
+}
+
+.program h3 {
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf);
+    color: white;
+    padding: 10px;
+}
+
+.program p {
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+h4 {
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf);
+    color: white ;
+    padding: 10px;
+}
+
+#program1 p {
+    margin-bottom:22px;
+    
+}
+
+#program2 p {
+    padding:5px;
+    margin-bottom:12px;
+}
+
+#program3 p {
+    margin-bottom: 2px;
+    padding: 6px;
+}
+
+.tech-images img {
+    width: 40px;
+    padding: 5px;
+    margin-right:3px
+}
+
+button {
+    background: #407d61;
+    border-radius: 7px;
+    border: 1px solid black;
+    width: 70px;
+    color: white;
+    margin-left: 100px;
+    padding: 3px;
+} 
+
+#footer {
+    border: 1px solid black;
+    display: inline-block;
+    width:950px;
+}
+
+#footer img{
+    width: 15px;
     
 }
